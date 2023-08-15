@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage is rendering 1`] = `
+Array [
+  <div
+    className="home__section relative min-h-screen px-4"
+  >
+    <nav
+      className="flex justify-between p-4 items-center "
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          className="flex flex-col border border-solid border-gray-400 rounded-lg p-3"
+        >
+          <p
+            className=" font-Montserrat text-green-600 font-black text-3xl leading-none tracking-widest"
+          >
+            AQAL
+          </p>
+          <small
+            className="text-orange-400 font-Roboto text-sm text-gray-400 uppercase leading-none tracking-tighter"
+          >
+            air quality app
+          </small>
+        </div>
+      </a>
+      <a
+        href="/search"
+        onClick={[Function]}
+      >
+        <svg
+          className="text-4xl text-green-600 "
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 9a2 2 0 114 0 2 2 0 01-4 0z"
+          />
+          <path
+            clipRule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </nav>
+    <div
+      className="rounded-xl bg-white py-2 pb-4 mb-4 flex flex-col justify-center items-start drop-shadow"
+    >
+      <div
+        className="text-l font-medium text-gray-600 pb-3 border-b border-solid border-gray-300 px-3 w-full "
+      >
+        <h3
+          className="px-1"
+        >
+          Home
+        </h3>
+      </div>
+      <div
+        className="px-4 pt-3"
+      >
+        <div />
+      </div>
+    </div>
+    <div>
+      <div
+        className=" bg-white rounded-2xl drop-shadow-sm mt-3 pt-4 pb-2 font-Roboto"
+      >
+        <div
+          className="flex justify-between pb-3 border-b border-solid border-gray-300 px-3"
+        >
+          <h3
+            className="text-l font-medium text-gray-600 "
+          >
+            Other Major Cities
+          </h3>
+        </div>
+        <div>
+          <ul
+            className="pt-2 px-2 w-full font-Roboto text-sm text-gray-400 font-bold grid grid-cols-2 gap-2"
+          >
+            <a
+              href="/search/details"
+              onClick={[Function]}
+            >
+              <li
+                className=" rounded-lg border  border-gray-300 border-solid px-2 py-2 flex justify-between hover:bg-green-600 hover:text-white"
+              >
+                <p>
+                  Amsterdam
+                </p>
+                <p
+                  className="text-gray-600"
+                >
+                  NL
+                </p>
+              </li>
+            </a>
+            <a
+              href="/search/details"
+              onClick={[Function]}
+            >
+              <li
+                className=" rounded-lg border  border-gray-300 border-solid px-2 py-2 flex justify-between hover:bg-green-600 hover:text-white"
+              >
+                <p>
+                  Abuja
+                </p>
+                <p
+                  className="text-gray-600"
+                >
+                  NG
+                </p>
+              </li>
+            </a>
+            <a
+              href="/search/details"
+              onClick={[Function]}
+            >
+              <li
+                className=" rounded-lg border  border-gray-300 border-solid px-2 py-2 flex justify-between hover:bg-green-600 hover:text-white"
+              >
+                <p>
+                  Sydney
+                </p>
+                <p
+                  className="text-gray-600"
+                >
+                  AU
+                </p>
+              </li>
+            </a>
+            <a
+              href="/search/details"
+              onClick={[Function]}
+            >
+              <li
+                className=" rounded-lg border  border-gray-300 border-solid px-2 py-2 flex justify-between hover:bg-green-600 hover:text-white"
+              >
+                <p>
+                  London
+                </p>
+                <p
+                  className="text-gray-600"
+                >
+                  GB
+                </p>
+              </li>
+            </a>
+            <a
+              href="/search/details"
+              onClick={[Function]}
+            >
+              <li
+                className=" rounded-lg border  border-gray-300 border-solid px-2 py-2 flex justify-between hover:bg-green-600 hover:text-white"
+              >
+                <p>
+                  Tunis
+                </p>
+                <p
+                  className="text-gray-600"
+                >
+                  TN
+                </p>
+              </li>
+            </a>
+            <a
+              href="/search/details"
+              onClick={[Function]}
+            >
+              <li
+                className=" rounded-lg border  border-gray-300 border-solid px-2 py-2 flex justify-between hover:bg-green-600 hover:text-white"
+              >
+                <p>
+                  Shanghai
+                </p>
+                <p
+                  className="text-gray-600"
+                >
+                  CN
+                </p>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a
+      className="group font-Roboto mx-10 mt-3 flex items-center justify-between rounded-2xl border border-current px-5 py-3 bg-white text-gray-500 transition-colors hover:bg-green-600 focus:outline-none focus:ring active:bg-green-500"
+      href="/search"
+      onClick={[Function]}
+    >
+      <span
+        className="font-medium transition-colors group-hover:text-white"
+      >
+        Search other Locations
+      </span>
+      <span
+        className="ml-4 flex-shrink-0 rounded-full border border-gray-600  p-2 group-active:border-white"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 20 20"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 9a2 2 0 114 0 2 2 0 01-4 0z"
+          />
+          <path
+            clipRule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </span>
+    </a>
+  </div>,
+  ",",
+]
+`;
